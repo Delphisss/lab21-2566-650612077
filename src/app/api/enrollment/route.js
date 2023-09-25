@@ -88,7 +88,6 @@ export const POST = async (request) => {
       courseNo: courseNo,
     },
   });
-
   if (!courseExists) {
     return NextResponse.json(
       {
