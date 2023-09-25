@@ -121,7 +121,6 @@ export const POST = async (request) => {
     data: {
       studentId: studentId,
       courseNo: courseNo,
-      // You can add more fields as needed
     },
   });
 
